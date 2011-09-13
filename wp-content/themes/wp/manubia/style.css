@@ -1,0 +1,241 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+* {	margin:0; padding:0;}
+
+html, body, #all {
+	font-family:"Trebuchet MS", Georgia, Arial;
+	font-size:0.9em;
+	color:#666;
+	margin:0;
+}
+
+body {
+	background-image: url(images/fundo-body.png);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+
+a {
+	text-decoration:none;
+	color:#666;
+	}
+
+a:hover{
+	text-decoration:underline;
+	color:#9c3;
+	}
+
+h3, h3 a{
+	color:#f93;
+	text-transform:uppercase;
+	background-image: url(images/fundo-h3.png);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	padding: 12px;
+	margin-bottom: 20px;
+	}
+	
+h3:first-letter {
+	font-size:120%;
+	}
+	
+p{
+	margin-bottom: 10px;
+	}
+
+img{
+	border:0px;
+	}
+
+li {
+	list-style:none;
+	}
+
+#site {
+	width:790px;
+	margin:auto;
+}
+
+#header, #content, #rodape, .clear{
+	clear:both;
+	margin:auto;
+	}
+
+#header {
+	background-image:url(images/fundo-header.png);	
+	background-repeat: no-repeat;
+	height:122px;
+	padding-top:10px;
+	}
+
+#header .coluna {
+	float:right;
+	}
+
+#logo {
+	width:264px;
+	height:85px;
+	float:left;
+	margin: auto 25px auto 10px;
+	}
+
+#formlogin{
+	margin: auto 20px auto 150px;;
+	font-size:0.85em;
+}
+
+#formlogin a{
+	color:#f93;
+	text-transform:uppercase;
+	}
+
+#menu{
+	margin:20px 6px 0 0;
+	text-align:right;
+	background-image: url(images/fundo-menu.png);
+	background-repeat: no-repeat;
+	background-position: right top;	
+	width: 480px;
+	height:30px;
+	}
+
+#menu ul{
+	padding-right:30px;
+	padding-top: 15px;
+	text-transform:uppercase;
+	}
+
+#menu ul li, #rodape ul li{
+	list-style:none;
+	display:inline; 
+	padding: 0 6px;
+	}
+
+#content, #rodape{
+	width:760px;
+	}
+	
+#pagpost{
+	float:left;
+	width: 550px;
+	}
+
+#content ul li, #pagpost ul li{
+	list-style: disc;
+	margin-left:20px;
+	}
+
+#content a{
+	text-decoration:underline;
+}
+
+#rodape{
+	text-align:center;
+	border-top:1px solid #ccc;
+	padding:8px;
+	margin-top: 30px;
+	}
+	
+#sidebar{
+	float:left;
+	width: 200px;
+	margin-left: 5px;
+	background-color:#f8fbf9;
+	padding: 0px;
+	}
+
+#sidebar h5 {
+	padding: 5px;
+	background-color:#f93;
+	color:#fff;
+	margin-bottom: 3px;
+}
+
+#sidebar a{
+	text-decoration:none;
+	}
+
+.botao {
+	background-color:#cae5d4;
+	font-size:0.9em;
+	border:1px solid #666;
+	height: 20px;
+	}
+
+.tags a{
+	background-color:#f93;
+	color:#FFF;
+	padding: 4px;
+	margin:0 4px;
+	}
+
+.linha2, .linha3{
+	clear:both;
+	width: 730px;
+	margin-top: 12px;
+	padding:0;
+	}
+	
+.linha2{
+ 	background-color: #e4ebe7;
+	height:235px;
+ }
+ 
+.linha3{
+ 	background-color:#eefada;
+	padding-top: 10px;
+	min-height: 250px;
+	}
+
+.destaque, .destaque2{
+	float:left;
+	height: 215px;
+	margin-top:10px;
+	margin-left:8px;
+	}
+
+.destaque{
+	background-image: url(images/bg-destaque-linha2.png);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	width:190px;
+	}
+	
+.destaque2{
+	width: 315px;
+	}
+
+.coluna1, .coluna2{
+	float:left;
+	}
+
+.coluna1{
+	width: 425px;
+	margin-right: 15px;
+	margin-left: 20px;
+	}
+
+.coluna2{
+	width:250px;
+	border:1px solid #CCC;
+	}
+
+/*global/universal image classes */
+img.alignleft, img.left { float: left; }
+img.alignright, img.right { float: right; }
+img.aligncenter, img.center { display: block; margin-right: auto; margin-left: auto; float: none; clear: both; }
+img.alignnone, img.block { display: block; clear: both; }
+img.frame { background: #eee; border-style: solid; border-color: #ddd; }
+img.stack { clear: none !important; }
+img[align="left"] { float: left; clear: left; }
+img[align="right"] { float: right; clear: right; }
+img[align="middle"] { display: block; margin-right: auto; margin-left: auto; float: none; clear: both; }
+
+/*—:[ image captioning ]:—*/
+.wp-caption { border-style: solid; border-color: #ddd; background-color: #eee; text-align: center; margin-left: 6px; margin-right:6px; margin-top: 4px; margin-bottom:4px;}
+.wp-caption.alignleft { float: left; }
+.wp-caption.alignright { float: right; }
+.wp-caption.aligncenter { margin-right: auto; margin-left: auto; float: none; clear: both; }
+.wp-caption.alignnone { clear: both; }

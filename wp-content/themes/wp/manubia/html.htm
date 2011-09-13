@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>Untitled Document</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<!-- container -->
+<div id="all">
+
+	<!-- site 790 px centralizado -->
+    <div id="site">
+    
+        <!-- header do template -->
+        <div id="header">
+    	
+        	<!-- logomarca do site -->
+        	<div id="logo">
+            <img src="images/logo.gif" alt="Manubia" />
+            </div>
+            
+            <!-- coluna 2 do header -->
+            <div class="coluna">
+            
+            	<!-- formulário de login-->
+                <div id="formlogin">
+                    <p>N&atilde;o sou cadastrado mas quero <a href="/manubia/pub/index">Me Cadastrar</a><br />
+
+                    <form action="/manubia/authentication/login" method="post">
+                    <label>Login: </label> <input type="text" name="login" value="" id="login" size="12"/>
+                    <label>Senha: </label><input name="password" value="" type="password" size="12"/>
+                    <input class="botao" name="ok" type="submit" value="Ok" />
+                    <input type="hidden" name="success_controller" value="painel" id="success_controller" /><input type="hidden" name="success_action" value="index" id="success_action" /><input type="hidden" name="error_controller" value="pub" id="error_controller" /><input type="hidden" name="error_action" value="index" id="error_action" />
+                    </form></p>
+                
+                <!-- fim formulário de login-->
+                </div>
+            	
+                <!-- menu principal -->
+                <div id="menu">
+                	
+                    <ul>
+                    	<li><a href="1">O Manubia</a></li>
+                        <li><a href="2">Relatórios</a></li>
+                        <li><a href="3">Compare as versões</a></li>
+                        <li><a href="4">Blog</a></li>
+                    </ul>
+                    
+                <!-- fim menu principal -->  
+                </div>
+            
+            <!-- fim coluna 2 do header -->
+            </div>
+        
+        <!-- fim header -->
+        </div>
+		
+        
+        <!-- conteúdo principal -->
+        <div id="content">
+        
+		<h3>título</h3>
+        
+        <p>texto</p>
+        
+        <!-- conteúdo principal -->
+        </div>
+        
+        <!-- rodapé -->
+        <div id="rodape">
+        
+        	<ul>
+            	<li><a href="1">Copyright</a></li>
+                <li>|</li>
+                <li><a href="1">Quem Somos</a></li>
+                <li>|</li>
+                <li><a href="1">Segurança</a></li>
+                <li>|</li>
+                <li><a href="1">Contato</a></li>
+            </ul>
+        
+        <!-- fim rodapé -->
+        </div>
+        
+	<!-- fim site 790 px centralizado -->
+    </div>
+
+<!-- fim container -->
+</div>
+</body>
+</html>

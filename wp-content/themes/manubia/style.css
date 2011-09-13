@@ -1,0 +1,249 @@
+html,body,#all {
+	font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;;
+	font-size: 0.9em;
+	color: #666;
+}
+
+body {
+	background-image: url(images/fundo-body.png);
+	background-repeat: repeat-x;
+	background-position: top;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #669966;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #9c3;
+}
+
+.linkfuncional {
+	color: #FF6600
+}
+
+#site {
+	width: 790px;
+	margin: auto;
+}
+
+#header,.content,#rodape,.clear {
+	clear: both;
+	margin: auto;
+}
+
+#header {
+	background-image: url(images/fundo-header.png);
+	background-repeat: no-repeat;
+	height: 122px;
+	margin-bottom: 10px;
+}
+
+img{border:0px;}
+
+#header table {width: 100%;}
+#header table td#logo{padding: 8px 0 0 8px; }
+#formlogin{text-align: right;padding: 5px 20px 5px; 0;}
+#formlogin form{margin: 0;}
+#formloginLinks{text-align: right; padding: 0 20px 5px 0;;}
+#formloginLinks a{color:#e17100;text-transform:uppercase;font-size:0.85em; }
+
+#menu{
+	background-image: url(images/fundo-menu.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+	text-align: right;	
+	}
+
+#menu ul{
+	padding-right:30px;
+	padding-top: 15px;
+	text-transform:uppercase;
+	}
+
+#menu ul li, #rodape ul li{
+	list-style:none;
+	display:inline; 
+	padding: 0 6px;
+	}
+#formlogin{
+	margin: auto 20px auto 150px;;
+	font-size:0.85em;
+}
+
+#formlogin a{
+	color:#f93;
+	text-transform:uppercase;
+	}
+
+.coluna1, .coluna2{float:left;}
+.coluna1{width: 100%;padding: 15px;/*width: 425px;*/}
+.coluna2{width:250px;border:1px solid #CCC;}
+
+h1{font-size: 2em;margin: 0}
+
+h3, h3 a{
+	color:#f93;
+	text-transform:uppercase;
+	background-image: url(images/fundo-h3.png);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	padding: 12px;
+	margin-bottom: 20px;
+}
+	
+h3:first-letter {
+	font-size:120%;
+}
+
+.content, #rodape{
+	width:760px;
+}
+
+#sidebar li {
+	list-style:none;
+	}
+
+
+	
+.pagpost{
+	float:left;
+	width: 550px;
+}
+.pagpost h1{font-size: 1.5em; margin: 0;}
+.pagpost li{
+	list-style:none;
+	margin: 0;
+	padding: 0;
+}
+.post{
+	margin-top:20px;
+	font-size:1.1em;
+	color:#000;
+}
+.postmetadata{
+	color:#999;
+	background-color:#F9F9D9;
+}
+.content ul li, .pagpost ul li{
+	list-style: disc;
+	margin-left:20px;
+	}
+
+.content a{
+	text-decoration:underline;
+}
+
+#rodape{
+	text-align:center;
+	border-top:1px solid #ccc;
+	padding:8px;
+	margin-top: 30px;
+	}
+	
+#sidebar{
+	float:left;
+	width: 200px;
+	margin-left: 5px;
+	background-color:#f8fbf9;
+	padding: 0px;
+	}
+
+#sidebar h5 {
+	padding: 5px;
+	background-color:#ffe0c1;
+	margin-bottom: 3px;
+}
+
+#sidebar a{
+	text-decoration:none;
+	}
+
+.botao {
+	background-color:#cae5d4;
+	font-size:0.9em;
+	border:1px solid #666;
+	height: 20px;
+	}
+
+.tags a{
+	padding: 4px;
+	margin:0 4px;
+	}
+
+.linha2, .linha3{
+	clear:both;
+	width: 730px;
+	margin-top: 12px;
+	padding:0;
+}
+	
+.linha2{
+ 	background-color: #e4ebe7;
+	height:235px;
+ }
+ 
+.linha3{
+ 	background-color:#eefada;
+	padding-top: 10px;
+	min-height: 250px;
+	}
+
+.destaque, .destaque2{
+	float:left;
+	height: 215px;
+	margin-top:10px;
+	margin-left:8px;
+	}
+
+.destaque{
+	background-image: url(images/bg-destaque-linha2.png);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	width:190px;
+	}
+	
+.destaque2{width: 315px;}
+
+
+
+
+
+/*global/universal image classes */
+img.alignleft, img.left { float: left; }
+img.alignright, img.right { float: right; }
+img.aligncenter, img.center { display: block; margin-right: auto; margin-left: auto; float: none; clear: both; }
+img.alignnone, img.block { display: block; clear: both; }
+img.frame { background: #eee; border-style: solid; border-color: #ddd; }
+img.stack { clear: none !important; }
+img[align="left"] { float: left; clear: left; }
+img[align="right"] { float: right; clear: right; }
+img[align="middle"] { display: block; margin-right: auto; margin-left: auto; float: none; clear: both; }
+
+/*—:[ image captioning ]:—*/
+/*.wp-caption { border-style: solid; border-color: #ddd; background-color: #eee; text-align: center; margin-left: 6px; margin-right:6px; margin-top: 4px; margin-bottom:4px;}*/
+.wp-caption { text-align: center; margin-left: 6px; margin-right:6px; margin-top: 4px; margin-bottom:4px;}
+.wp-caption.alignleft { float: left; }
+.wp-caption.alignright { float: right; }
+.wp-caption.aligncenter { margin-right: auto; margin-left: auto; float: none; clear: both; }
+.wp-caption.alignnone { clear: both; }
+
+/* Table de Compra*/
+.tblMkt th 		{border:0px solid #f00; padding:30px; border-collapse:collapse;}
+.tblMkt tr td 	{padding:20px; background-color:#f0f0f0;}
+.tblMkt .head	{padding:0px;}
+.tblMkt tr .left{background-color:#e0f0e5;}
+.tblMkt tr td	{border-collapse: collapse; }
+.tblMkt tr td	{border:2px solid white;}
+a.linkcompra	{background-color:#FFB340;border:1px solid #FF6600;font-size: 18px; font-weight: bold;padding: 5px;color: #FFFFFF;}
+.txtLateralCompra h3{
+	font-size:14px;
+	font-weight:bold;
+	color:#FF9900;
+ 	border-bottom: 1px dotted #FF9900;
+ 	margin: 20px 0 7px 0;
+}
+.titPlano {color:black;font-size:1.6em;}
